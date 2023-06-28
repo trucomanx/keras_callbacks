@@ -7,7 +7,9 @@ Install keras_callbacks following https://github.com/trucomanx/keras_callbacks/b
 The next code shows an example use of keras_callbacks library.
 
 ```python
-import keras_callbacks
+from keras_callbacks import WhenNewMaximumFound
+
+callback_tts=WhenNewMaximumFound(metric_name='val_categorical_accuracy',patience=10);
 ```
 
 # keras_callbacks example files
