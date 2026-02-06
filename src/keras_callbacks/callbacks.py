@@ -10,7 +10,7 @@ from IPython.core.display import display
 
 import numpy as np
 
-class WhenNewMaximumFound(tf.keras.callbacks.Callback):
+class PlayAudioWhenNewMaximumFound(tf.keras.callbacks.Callback):
     """
     when new maximum was found.
 
