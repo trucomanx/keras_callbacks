@@ -1,6 +1,6 @@
 # about.py
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __package__ = "keras_callbacks"
 __program_name__ = "keras-callbacks"
 __author__ = "Fernando Pujaico Rivera" 
